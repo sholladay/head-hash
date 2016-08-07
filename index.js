@@ -9,7 +9,7 @@ const headHash = () => {
                 reject(err);
                 return;
             }
-            resolve(stdout);
+            resolve(stdout.trimRight());
         });
     });
 };
