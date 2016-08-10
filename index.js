@@ -6,7 +6,7 @@ const headHash = (option) => {
     return new Promise((resolve, reject) => {
         const cmd = [
             'git rev-parse --verify',
-            option.short ? ' --short' : ''
+            option.short ? ' --short' : '',
             ' HEAD'
         ].join('');
         exec(cmd, (err, stdout) => {
