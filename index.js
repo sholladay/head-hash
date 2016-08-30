@@ -3,13 +3,15 @@
 const { exec } = require('child_process');
 
 const headHash = (option) => {
+    const config = Object.assign({}, option);
+
     return new Promise((resolve, reject) => {
-        const cmd = [
+        const command = [
             'git rev-parse --verify',
-            option.short ? ' --short' : '',
+            config.short ? ' --short' : '',
             ' HEAD'
         ].join('');
-        exec(cmd, (err, stdout) => {
+        exec(command, { cwd : config.cwd }, (err, stdout) => {
             if (err) {
                 reject(err);
                 return;
