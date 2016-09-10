@@ -30,6 +30,32 @@ headHash().then((hash) => {
 });
 ```
 
+## API
+
+### headHash(option)
+
+#### option
+
+Type: `object`
+
+##### cwd
+
+Type: `string`<br>
+Default: `process.cwd()`
+
+The directory who's HEAD you want to use for finding the latest commit.
+
+##### short
+
+Type: `boolean`<br>
+Default: `false`
+
+Whether to shorten the hash to the shortest possible unique name of at least 7 characters.
+
+## Related
+
+ - [branch-name](https://github.com/sholladay/branch-name) - Get the current branch name.
+
 ## Contributing
 
 See our [contributing guidelines](https://github.com/sholladay/head-hash/blob/master/CONTRIBUTING.md "The guidelines for participating in this project.") for more details.
