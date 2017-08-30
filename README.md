@@ -1,6 +1,6 @@
-# head-hash [![Build status for head-hash on Circle CI.](https://img.shields.io/circleci/project/sholladay/head-hash/master.svg "Circle Build Status")](https://circleci.com/gh/sholladay/head-hash "Head Hash Builds")
+# head-hash [![Build status for head-hash](https://img.shields.io/circleci/project/sholladay/head-hash/master.svg "Build Status")](https://circleci.com/gh/sholladay/head-hash "Builds")
 
-> Get the current commit hash.
+> Get the current commit hash
 
 ## Why?
 
@@ -58,16 +58,16 @@ Whether to shorten the hash to the shortest possible unique name of at least 7 c
 
 ## Contributing
 
-See our [contributing guidelines](https://github.com/sholladay/head-hash/blob/master/CONTRIBUTING.md "The guidelines for participating in this project.") for more details.
+See our [contributing guidelines](https://github.com/sholladay/head-hash/blob/master/CONTRIBUTING.md "Guidelines for participating in this project") for more details.
 
 1. [Fork it](https://github.com/sholladay/head-hash/fork).
 2. Make a feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
-5. [Submit a pull request](https://github.com/sholladay/head-hash/compare "Submit code to this project for review.").
+5. [Submit a pull request](https://github.com/sholladay/head-hash/compare "Submit code to this project for review").
 
 ## License
 
-[MPL-2.0](https://github.com/sholladay/head-hash/blob/master/LICENSE "The license for head-hash.") © [Seth Holladay](http://seth-holladay.com "Author of head-hash.")
+[MPL-2.0](https://github.com/sholladay/head-hash/blob/master/LICENSE "License for head-hash") © [Seth Holladay](http://seth-holladay.com "Author of head-hash")
 
 Go make something, dang it.
