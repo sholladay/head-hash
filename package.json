@@ -1,51 +1,51 @@
 {
-  "name": "head-hash",
-  "version": "0.2.3",
-  "description": "Get the current commit hash.",
-  "homepage": "https://github.com/sholladay/head-hash",
-  "main": "index.js",
-  "author": {
-    "name": "Seth Holladay",
-    "url": "http://seth-holladay.com",
-    "email": "me@seth-holladay.com"
-  },
-  "scripts": {
-    "test": "xo"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:sholladay/head-hash.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sholladay/head-hash/issues",
-    "email": "me@seth-holladay.com"
-  },
-  "engines": {
-    "node": ">=6"
-  },
-  "license": "MPL-2.0",
-  "files": [
-    "index.js"
-  ],
-  "devDependencies": {
-    "eslint-config-tidy": "^0.3.0",
-    "xo": "^0.16.0"
-  },
-  "keywords": [
-    "git",
-    "commit",
-    "commits",
-    "rev",
-    "head",
-    "hash",
-    "version",
-    "versions",
-    "current",
-    "latest",
-    "build",
-    "builds"
-  ],
-  "xo": {
-    "extend": "tidy"
-  }
+    "name": "head-hash",
+    "version": "0.2.3",
+    "description": "Get the current commit hash.",
+    "homepage": "https://github.com/sholladay/head-hash",
+    "main": "index.js",
+    "author": {
+        "name": "Seth Holladay",
+        "url": "http://seth-holladay.com",
+        "email": "me@seth-holladay.com"
+    },
+    "scripts": {
+        "test": "xo"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:sholladay/head-hash.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sholladay/head-hash/issues",
+        "email": "me@seth-holladay.com"
+    },
+    "engines": {
+        "node": ">=6"
+    },
+    "license": "MPL-2.0",
+    "files": [
+        "index.js"
+    ],
+    "devDependencies": {
+        "eslint-config-tidy": "^0.3.0",
+        "xo": "^0.16.0"
+    },
+    "keywords": [
+        "git",
+        "commit",
+        "commits",
+        "rev",
+        "head",
+        "hash",
+        "version",
+        "versions",
+        "current",
+        "latest",
+        "build",
+        "builds"
+    ],
+    "xo": {
+        "extend": "tidy"
+    }
 }
