@@ -1,6 +1,6 @@
 {
     "name": "head-hash",
-    "version": "0.2.3",
+    "version": "0.3.0",
     "description": "Get the current commit hash.",
     "homepage": "https://github.com/sholladay/head-hash",
     "main": "index.js",
