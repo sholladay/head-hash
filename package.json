@@ -10,7 +10,7 @@
         "email": "me@seth-holladay.com"
     },
     "scripts": {
-        "test": "xo"
+        "test": "xo && ava"
     },
     "repository": {
         "type": "git",
@@ -21,15 +21,17 @@
         "email": "me@seth-holladay.com"
     },
     "engines": {
-        "node": ">=6"
+        "node": ">=8"
     },
     "license": "MPL-2.0",
     "files": [
         "index.js"
     ],
     "devDependencies": {
-        "eslint-config-tidy": "^0.3.0",
-        "xo": "^0.16.0"
+        "ava": "^0.22.0",
+        "eslint-config-tidy": "^0.5.0",
+        "mkdirtemp": "^1.1.0",
+        "xo": "^0.18.2"
     },
     "keywords": [
         "git",
