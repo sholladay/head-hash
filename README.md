@@ -34,6 +34,8 @@ headHash().then((hash) => {
 
 ### headHash(option)
 
+Returns a `Promise` for the hash of the latest commit on the HEAD branch.
+
 #### option
 
 Type: `object`
@@ -54,7 +56,8 @@ Whether to shorten the hash to the shortest possible unique name of at least 7 c
 
 ## Related
 
- - [branch-name](https://github.com/sholladay/branch-name) - Get the current branch name.
+ - [branch-name](https://github.com/sholladay/branch-name) - Get the current branch name
+ - [build-version](https://github.com/sholladay/build-version) - Get a version for your build
 
 ## Contributing
 
@@ -68,6 +71,6 @@ See our [contributing guidelines](https://github.com/sholladay/head-hash/blob/ma
 
 ## License
 
-[MPL-2.0](https://github.com/sholladay/head-hash/blob/master/LICENSE "License for head-hash") © [Seth Holladay](http://seth-holladay.com "Author of head-hash")
+[MPL-2.0](https://github.com/sholladay/head-hash/blob/master/LICENSE "License for head-hash") © [Seth Holladay](https://seth-holladay.com "Author of head-hash")
 
 Go make something, dang it.
